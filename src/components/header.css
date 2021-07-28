@@ -1,0 +1,81 @@
+@font-face {
+        font-family: 'S-CoreDream-3Light';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html, body {
+        margin: 0;
+        padding: 0;
+        font-size: 60%;
+}
+
+* {
+        margin: 0;
+        padding: 0;
+}
+
+a {
+        text-decoration: none;
+        color: black;
+}
+
+ul, li {
+        list-style: none;
+}
+
+
+
+.header {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+
+}
+
+.header .logo {
+
+        padding: 0 20px;
+
+}
+
+.header .logo a {
+
+        font-size: 3rem;
+        font-family: 'Ubuntu', sans-serif;
+
+}
+
+.header div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.header div ul {
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+}
+
+.header div ul li {
+
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+
+.header div ul li a {
+
+        font-size: 2rem;
+        font-family: 'Ubuntu', sans-serif;
+
+}

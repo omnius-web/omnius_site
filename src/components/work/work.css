@@ -1,0 +1,73 @@
+.workwrap {
+        margin-top: 50px;
+}
+
+.workwrap > .tit {
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Ubuntu', sans-serif;
+}
+
+.work {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+}
+
+.work .one {
+        width: 22%;
+        background-color: #f5f5f5;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+        margin: 0.3%;
+}
+
+.work .one > div {
+        width: 85%;
+        margin: 5px 0;
+        font-size: 1.3rem;
+        font-family: 'S-CoreDream-3Light';
+}
+
+.work .one .tit {
+        font-size: 1.7rem;
+}
+
+.work .one .complete {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.work .one .complete .bg {
+        width: 100%;
+        height: 20px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 30px;
+        background-color: white;
+}
+
+.work .one .complete .bg .bar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #0088ff;
+        height: 100%;
+        border-radius: 30px;
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.work .one .complete .bg .bar a {
+        color: white;
+        font-family: 'S-CoreDream-3Light';
+        font-size: 1.3rem;
+}
