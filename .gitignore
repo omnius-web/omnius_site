@@ -11,8 +11,6 @@
 # production
 /build
 
-/public/about
-/public/swiper
 
 # misc
 .DS_Store
