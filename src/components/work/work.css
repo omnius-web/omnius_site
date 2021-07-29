@@ -18,6 +18,7 @@
 
 .work .one {
         width: 22%;
+        height: 150px;
         background-color: #f5f5f5;
         border-radius: 10px;
         display: flex;
@@ -65,6 +66,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        box-sizing: border-box;
 }
 .work .one .complete .bg .bar a {
         color: white;
