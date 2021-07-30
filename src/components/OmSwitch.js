@@ -6,6 +6,7 @@ import './content.css';
 import Portfolio from './portfolio/Portfolio';
 import About from './about/About';
 import Work from './work/Work';
+import Contact from './contact/Contact';
 
 export default ()=>{
         return (
@@ -20,6 +21,9 @@ export default ()=>{
                                 </Route>
                                 <Route path="/work">
                                         <Work />
+                                </Route>
+                                <Route path="/contact">
+                                        <Contact />
                                 </Route>
                                 <Route path="/">
                                         <Portfolio />

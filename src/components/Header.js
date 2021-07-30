@@ -25,6 +25,9 @@ export default () => {
                                         <li>
                                                 <Link to="/work">Work</Link>
                                         </li>
+                                        <li>
+                                                <Link to="/contact">Contact</Link>
+                                        </li>
                                 </ul>
                         </div>
                         
