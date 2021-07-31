@@ -47,7 +47,7 @@ export default () => {
         ];
         return (
                 <div className="aboutwrap">
-                        <div className="tit" style={{backgroundImage:"url(/assets/top.jpg)"}}>About US</div>
+                        <div className="tit" style={{backgroundImage:"url(/assets/top.jpg)"}}><span>About US</span></div>
                         <div className="about">
                                 <div className="con">
                                         {text.map((t,i)=>{

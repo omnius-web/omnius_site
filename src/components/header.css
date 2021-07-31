@@ -34,6 +34,12 @@ ul, li {
         justify-content: space-between;
         align-items: center;
         height: 70px;
+        background-color: rgba(0,0,0,0.7);
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 99;
 
 }
 
@@ -47,6 +53,7 @@ ul, li {
 
         font-size: 3rem;
         font-family: 'Ubuntu', sans-serif;
+        color: white;
 
 }
 
@@ -77,5 +84,6 @@ ul, li {
 
         font-size: 2rem;
         font-family: 'Ubuntu', sans-serif;
+        color: white;
 
 }

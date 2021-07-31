@@ -233,7 +233,7 @@ export default () => {
         ];
         return (
                 <div className="workwrap">
-                        <div className="tit" style={{backgroundImage:"url(/assets/top.jpg)"}}>Work</div>
+                        <div className="tit" style={{backgroundImage:"url(/assets/top.jpg)"}}><span>Work</span></div>
                         <div className="work">
                                 {complete.map((d,i)=>{
                                         return (
