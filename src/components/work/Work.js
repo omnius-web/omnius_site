@@ -231,13 +231,26 @@ function Work(){
                         compl: '100%'
                 },
         ];
+        const omAos = [
+                // 'fade-up',
+                // 'fade-down',
+                // 'fade-left',
+                // 'fade-right',
+                'flip-left',
+                'flip-right',
+                'flip-up',
+                'flip-down',
+        ];
+        function rand(min, max) {
+                return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
         return (
                 <div className="workwrap alltop">
-                        <div className="tit" style={{backgroundImage:"url(/main.jpg)"}}><span data-aos="fade-right" data-aos-duration="1000">Work</span></div>
+                        <div className="tit" style={{backgroundImage:"url(/main.jpg)"}}><span data-aos="fade-down" data-aos-duration="1000">Work</span></div>
                         <div className="work">
                                 {complete.map((d,i)=>{
                                         return (
-                                                <div className="one" key={i}>
+                                                <div className="one" key={i} data-aos={omAos[rand(0,3)]} data-aos-duration="1000" >
                                                         <div className="tit">{d.tit}</div>
                                                         <div className="desc">{d.desc1}</div>
                                                         <div className="desc">{d.desc2}</div>

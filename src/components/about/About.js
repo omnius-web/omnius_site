@@ -47,16 +47,16 @@ function About(){
         ];
         return (
                 <div className="aboutwrap alltop">
-                        <div className="tit" style={{backgroundImage:"url(/main.jpg)"}}><span data-aos="fade-right" data-aos-duration="1000">About US</span></div>
+                        <div className="tit" style={{backgroundImage:"url(/main.jpg)"}}><span data-aos="fade-down" data-aos-duration="1000">About US</span></div>
                         <div className="about">
-                                <div className="con">
+                                <div className="con" data-aos="fade-right" data-aos-duration="1000">
                                         {text.map((t,i)=>{
                                                 return (
                                                         <li key={i}>{t}</li>
                                                 )
                                         })}
                                 </div>
-                                <div className="top">
+                                <div className="top" data-aos="fade-left" data-aos-duration="1000">
                                         {member.map((d,i)=>{
                                                 return (
                                                         <div key={i}>
