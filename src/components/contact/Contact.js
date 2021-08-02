@@ -3,7 +3,7 @@ import './contact.css'
 function Contact(){
         return (
                 <div className="contactwrap alltop">
-                        <div className="tit" style={{backgroundImage:"url(/main.jpg)"}}><span>Contact</span></div>
+                        <div className="tit" style={{backgroundImage:"url(/main.jpg)"}}><span data-aos="fade-right" data-aos-duration="1000">Contact</span></div>
 
                         <div className="con">
                                 <li>원하시는 디자인, 그리고 상상하는 모든 기능이 제작가능합니다.</li>

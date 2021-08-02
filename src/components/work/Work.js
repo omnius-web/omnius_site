@@ -233,7 +233,7 @@ function Work(){
         ];
         return (
                 <div className="workwrap alltop">
-                        <div className="tit" style={{backgroundImage:"url(/main.jpg)"}}><span>Work</span></div>
+                        <div className="tit" style={{backgroundImage:"url(/main.jpg)"}}><span data-aos="fade-right" data-aos-duration="1000">Work</span></div>
                         <div className="work">
                                 {complete.map((d,i)=>{
                                         return (

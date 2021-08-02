@@ -23,6 +23,11 @@ function Header(){
                         setFootNAme('sub_footer');
                 }
         },[lopath])
+        const { AOS } = window;
+        useEffect(()=>{
+                AOS.init();
+
+        })
         function changelocation(lo){
                 setlopath(lo);
         }

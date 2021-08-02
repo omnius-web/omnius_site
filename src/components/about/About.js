@@ -47,7 +47,7 @@ function About(){
         ];
         return (
                 <div className="aboutwrap alltop">
-                        <div className="tit" style={{backgroundImage:"url(/main.jpg)"}}><span>About US</span></div>
+                        <div className="tit" style={{backgroundImage:"url(/main.jpg)"}}><span data-aos="fade-right" data-aos-duration="1000">About US</span></div>
                         <div className="about">
                                 <div className="con">
                                         {text.map((t,i)=>{
