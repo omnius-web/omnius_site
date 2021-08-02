@@ -26,3 +26,34 @@
         line-height: 4rem;
         color: white;
 }
+
+
+@media screen and (max-width: 1000px) {
+        .mainwrap {
+                background-position: 60% center;
+        }
+        .mainwrap .txt .tit {
+                font-size: 4rem;
+                line-height: 6rem;
+        }
+        .mainwrap .txt .desc {
+                font-size: 1.8rem;
+                line-height: 3rem;
+        }
+}
+
+@media screen and (max-width: 700px) {
+        .mainwrap .txt .tit {
+                font-size: 3rem;
+                line-height: 4.7rem;
+        }
+        .mainwrap .txt .desc {
+                font-size: 1.6rem;
+                line-height: 2.7rem;
+        }
+        .mainwrap .txt {
+                margin-left: 40px;
+        }
+}
+
+

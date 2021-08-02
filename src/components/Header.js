@@ -6,6 +6,7 @@ import {
 import './header.css';
 import OmSwitch from "./OmSwitch";
 import Footer from "./Footer";
+import OmBerGer from "./omberger/OmBerGer";
 
 function Header(){
         const [lopath, setlopath] = useState('/');
@@ -37,7 +38,7 @@ function Header(){
                         <div className="logo">
                                 <Link to="/">OMNIUS</Link>
                         </div>
-                        <div>
+                        <div className="nav">
                                 <ul>
                                         
                                         <li>
@@ -54,7 +55,7 @@ function Header(){
                                         </li>
                                 </ul>
                         </div>
-                        
+                        <OmBerGer />
                 </div>
                 
                 <OmSwitch changelocation={changelocation} lopath={lopath} />
