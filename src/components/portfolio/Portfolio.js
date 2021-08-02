@@ -14,7 +14,7 @@ SwiperCore.use([Navigation]);
 
 
 
-export default () => {
+function Portfolio(){
 
         const pf = [];
 
@@ -40,7 +40,7 @@ export default () => {
                                         return (
 
                                                 <SwiperSlide key={i}>
-                                                        <img src={img.img} />
+                                                        <img src={img.img} alt={i}/>
                                                 </SwiperSlide>
 
                                         )
@@ -53,3 +53,5 @@ export default () => {
         
         )
 }
+
+export default Portfolio

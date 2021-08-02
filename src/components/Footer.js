@@ -1,8 +1,8 @@
 import './footer.css';
 
-function Footer(){
+function Footer(props){
         return (
-                <div className="footer">
+                <div className={'footer '+props.clName}>
 
                         <div>
                         OMNIUS | 대표 : 김경식 | 사업자번호 : 376-41-00517<br/>

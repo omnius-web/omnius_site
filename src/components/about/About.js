@@ -1,6 +1,6 @@
 import './about.css'
 
-export default () => {
+function About(){
         const text = [
                 '홈페이지를 만들어야 하는데 어떻게 시작을 해야할지..',
                 '어떤 업체를 선택해야할지.. 막막하시죠?',
@@ -46,8 +46,8 @@ export default () => {
                 }
         ];
         return (
-                <div className="aboutwrap">
-                        <div className="tit" style={{backgroundImage:"url(/assets/top.jpg)"}}><span>About US</span></div>
+                <div className="aboutwrap alltop">
+                        <div className="tit" style={{backgroundImage:"url(/main.jpg)"}}><span>About US</span></div>
                         <div className="about">
                                 <div className="con">
                                         {text.map((t,i)=>{
@@ -61,7 +61,7 @@ export default () => {
                                                 return (
                                                         <div key={i}>
                                                                 <li>
-                                                                        <img src={d.img} />
+                                                                        <img src={d.img}  alt={i}/>
                                                                 </li>
                                                                 <li>
                                                                         {d.txt}
@@ -74,3 +74,5 @@ export default () => {
                 </div>
         )
 }
+
+export default About

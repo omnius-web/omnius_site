@@ -1,6 +1,6 @@
 import './work.css'
 
-export default () => {
+function Work(){
         const complete = [
                 {
                         tit:'서승은 작가',
@@ -232,8 +232,8 @@ export default () => {
                 },
         ];
         return (
-                <div className="workwrap">
-                        <div className="tit" style={{backgroundImage:"url(/assets/top.jpg)"}}><span>Work</span></div>
+                <div className="workwrap alltop">
+                        <div className="tit" style={{backgroundImage:"url(/main.jpg)"}}><span>Work</span></div>
                         <div className="work">
                                 {complete.map((d,i)=>{
                                         return (
@@ -244,8 +244,8 @@ export default () => {
                                                         <div className="complete">
                                                                 <div className="bg">
                                                                         <div className="bar" style={{width:d.compl}}>
-                                                                                <a>진행률</a>
-                                                                                <a>{d.compl}</a>
+                                                                                <span>진행률</span>
+                                                                                <span>{d.compl}</span>
                                                                         </div>
                                                                 </div>
                                                         </div>
@@ -257,3 +257,5 @@ export default () => {
                 </div>
         )
 }
+
+export default Work

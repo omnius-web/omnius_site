@@ -2,22 +2,7 @@
         margin-bottom: 100px;
 }
 
-.aboutwrap > .tit {
-        text-align: center;
-        font-size: 3.5rem;
-        font-family: 'Ubuntu', sans-serif;
-        background-position: center 70%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-}
-.aboutwrap > .tit > span {
-        padding-top: 70px;
-}
+
 .about {
         margin-top: 50px;
         display: flex;

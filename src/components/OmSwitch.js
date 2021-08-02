@@ -1,14 +1,23 @@
+import React, { useEffect } from 'react';
 import {
         Switch,
-        Route
+        Route,
+        useLocation
 } from 'react-router-dom'
 import './content.css';
+import Main from './main/Main';
 import Portfolio from './portfolio/Portfolio';
 import About from './about/About';
 import Work from './work/Work';
 import Contact from './contact/Contact';
 
-export default ()=>{
+function OmSwitch(props){
+        const loRst = useLocation();
+        useEffect(()=>{
+                props.changelocation(loRst);
+        })
+        
+        
         return (
                 <div className="content">
 
@@ -26,10 +35,12 @@ export default ()=>{
                                         <Contact />
                                 </Route>
                                 <Route path="/">
-                                        <Portfolio />
+                                        <Main />
                                 </Route>
                         </Switch>
 
                 </div>
         )
 }
+
+export default OmSwitch
