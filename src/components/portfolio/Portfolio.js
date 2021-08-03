@@ -49,6 +49,20 @@ function Portfolio(){
 
                         </Swiper>
 
+                        <div className="pf_mo">
+                                {pf.map((img,i)=>{
+                                        
+                                        return (
+
+                                                <div className="one" key={i}>
+                                                        <img src={img.img} alt={i}/>
+                                                </div>
+
+                                        )
+                                        
+                                })}
+                        </div>
+
                 </div>
         
         )

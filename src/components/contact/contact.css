@@ -25,3 +25,29 @@
         font-family: 'S-CoreDream-3Light';
         margin: 25px 0;
 }
+
+@media screen and (max-width: 1500px) {
+        .contactwrap .con li,
+        .contactwrap .con2 li {
+                font-size: 1.7rem;
+        }
+}
+
+@media screen and (max-width: 1000px) {
+        .contactwrap .con,
+        .contactwrap .con2 {
+                margin-top: 50px;
+        }
+}
+
+@media screen and (max-width: 600px) {
+        .contactwrap .con li {
+                font-size: 1.3rem;
+                letter-spacing: -0.1rem;
+                text-align: center;
+        }
+        .contactwrap .con2 li {
+                font-size: 1.3rem;
+                text-align: center;
+        }
+}

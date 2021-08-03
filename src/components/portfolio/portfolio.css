@@ -3,6 +3,7 @@
         width: 100%;
         height: 100vh;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     
@@ -56,3 +57,39 @@
 .swiper-button-next { right: 0; }
 .swiper-button-prev { left: 0; }
 
+.portfolio .pf_mo {
+        display: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 100px 0;
+}
+
+.portfolio .pf_mo .one {
+        width: 48%;
+        margin-bottom: 15px;
+}
+
+.portfolio .pf_mo .one img {
+        width: 100%;
+}
+
+
+@media screen and (max-width: 1000px){
+        .portfolio {
+                height: auto;
+                justify-content: flex-start;
+        }
+        .swiper-container {
+                display: none;
+        }
+        .portfolio .pf_mo {
+                display: flex;
+        }
+}
+
+@media screen and (max-width: 800px){
+        .portfolio .pf_mo .one {
+                width: 100%;
+        }
+}

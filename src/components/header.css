@@ -126,3 +126,9 @@ ul, li {
         }
         
 }
+
+@media screen and (max-width: 800px){
+        .alltop > .tit {
+                height: 230px;
+        }
+}

@@ -1,4 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import {
+        Link
+} from "react-router-dom";
 import "./omberger.css";
 
 function OmBerGer(){
@@ -16,6 +19,9 @@ function OmBerGer(){
                 }
                 
         }
+        useEffect(()=>{
+                
+        })
         
         return (
                 <div className="omberger">
@@ -24,6 +30,23 @@ function OmBerGer(){
                         </div>
                         <div className={'submenu '+subMenuStatus}>
                                 <div className="close" onClick={OBGBt}></div>
+                                <div className="list">
+                                        <li>
+                                                <Link to="/" onClick={OBGBt}>Home</Link>
+                                        </li>
+                                        <li>
+                                                <Link to="/portfolio" onClick={OBGBt}>Portfolio</Link>
+                                        </li>
+                                        <li>
+                                                <Link to="/about" onClick={OBGBt}>About Us</Link>
+                                        </li>
+                                        <li>
+                                                <Link to="/work" onClick={OBGBt}>Work</Link>
+                                        </li>
+                                        <li>
+                                                <Link to="/contact" onClick={OBGBt}>Contact</Link>
+                                        </li>
+                                </div>
                         </div>
                 </div>
         )

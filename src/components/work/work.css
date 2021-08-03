@@ -79,3 +79,21 @@
         font-family: 'S-CoreDream-3Light';
         font-size: 1.3rem;
 }
+
+@media screen and (max-width: 1400px){
+        .work .one {
+                width: 30%;
+        }
+}
+
+@media screen and (max-width: 1000px){
+        .work .one {
+                width: 45%;
+        }
+}
+
+@media screen and (max-width: 700px){
+        .work .one {
+                width: 90%;
+        }
+}
