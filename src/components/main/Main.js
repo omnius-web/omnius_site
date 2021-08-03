@@ -5,7 +5,7 @@ function Main(){
                 <div className="mainwrap" style={{ backgroundImage: 'url(/main.jpg)' }}>
                         <div className="txt">
                                 <div className="tit" data-aos="fade-down"  data-aos-duration="2000">
-                                        3제작부터 유지보수까지<br />
+                                        5제작부터 유지보수까지<br />
                                         같이 고민하고 책임지는<br />
                                         파트너가 되겠습니다.
                                 </div>
