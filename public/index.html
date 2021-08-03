@@ -32,8 +32,8 @@
   <body>
     <script>
       function ieChk(){
-        const url = "https://web.omnius.co.kr";
-        const html = "";
+        var url = "https://web.omnius.co.kr";
+        var html = "";
         html += '이 브라우저는 보안에 취약한 브라우저이며 OMNIUS사이튼는 최신브라우저인 마이크로소프트 엣지 브라우저에서 접속하도록 도와드렸습니다.';
         var agent = navigator.userAgent.toLowerCase();
         if ( (navigator.appName === 'Netscape' && agent.indexOf('trident') !== -1) || (agent.indexOf("msie") !== -1)) {
