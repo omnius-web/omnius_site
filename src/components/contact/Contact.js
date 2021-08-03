@@ -13,7 +13,7 @@ function Contact(){
                         </div>
 
                         <div className="con2" data-aos="fade-left" data-aos-duration="1000">
-                                <li>대표번호 : 1800-5756</li>
+                                <li><a href="tel:1800-5756">대표번호 : 1800-5756</a></li>
                                 <li>E-Mail : gs5m@naver.com</li>
                                 <li>카카오톡 ID : pigweb</li>
                         </div>
