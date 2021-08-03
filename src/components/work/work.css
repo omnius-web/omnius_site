@@ -5,7 +5,7 @@
 
 
 .work {
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
@@ -81,10 +81,7 @@
         font-size: 1.3rem;
 }
 
-.aos-animate {
-        z-index: 0!important;
-        position: relative!important;
-}
+
 
 
 
