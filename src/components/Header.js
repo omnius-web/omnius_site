@@ -13,6 +13,7 @@ function Header(){
         const [hdName, setHdNAme] = useState('');
         const [footName, setFootNAme] = useState('');
         useEffect(()=>{
+                window.scrollTo(0, 0);
                 if(lopath === '/' || lopath.pathname === '/'){
                         setHdNAme('main_header');
                         setFootNAme('main_footer');
