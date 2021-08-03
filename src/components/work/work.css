@@ -81,12 +81,7 @@
         font-size: 1.3rem;
 }
 
-[data-aos] {
-        pointer-events: none;
-        &.aos-animate {
-          pointer-events: auto;
-        }
-}
+
 
 @media screen and (max-width: 1400px){
         .work .one {

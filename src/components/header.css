@@ -46,6 +46,13 @@ ul, li {
         top: 0;
         z-index: 9999;
 
+        [data-aos] {
+                pointer-events: none;
+                &.aos-animate {
+                  pointer-events: auto;
+                }
+        }
+
 }
 
 .main_header {
