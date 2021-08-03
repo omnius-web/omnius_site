@@ -247,10 +247,30 @@ function Work(){
         return (
                 <div className="workwrap alltop">
                         <div className="tit" style={{backgroundImage:"url(/main.jpg)"}}><span data-aos="fade-down" data-aos-duration="1000">Work</span></div>
-                        <div className="work">
+                        <div className="work pc">
                                 {complete.map((d,i)=>{
                                         return (
-                                                <div className="one" key={i} data-aos={omAos[rand(0,3)]} data-aos-duration="1000" >
+                                                <div className="one pc" key={i} data-aos={omAos[rand(0,3)]} data-aos-duration="1000" >
+                                                        <div className="tit">{d.tit}</div>
+                                                        <div className="desc">{d.desc1}</div>
+                                                        <div className="desc">{d.desc2}</div>
+                                                        <div className="complete">
+                                                                <div className="bg">
+                                                                        <div className="bar" style={{width:d.compl}}>
+                                                                                <span>진행률</span>
+                                                                                <span>{d.compl}</span>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        )
+                                })}
+                                
+                        </div>
+                        <div className="work mo">
+                                {complete.map((d,i)=>{
+                                        return (
+                                                <div className="one pc" key={i}>
                                                         <div className="tit">{d.tit}</div>
                                                         <div className="desc">{d.desc1}</div>
                                                         <div className="desc">{d.desc2}</div>

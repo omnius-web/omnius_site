@@ -81,6 +81,10 @@
         font-size: 1.3rem;
 }
 
+.work.mo {
+        display: none;
+}
+
 
 
 
@@ -94,6 +98,12 @@
 @media screen and (max-width: 1000px){
         .work .one {
                 width: 45%;
+        }
+        .work.pc {
+                display: none;
+        }
+        .work.mo {
+                display: flex;
         }
 }
 
