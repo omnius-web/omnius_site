@@ -26,6 +26,7 @@
         align-items: center;
         padding: 15px 0;
         margin: 0.5%;
+        pointer-events: none;
 }
 
 .work .one > div {
