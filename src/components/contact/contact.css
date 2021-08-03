@@ -20,7 +20,8 @@
         text-align: center;
 }
 
-.contactwrap .con2 li {
+.contactwrap .con2 li,
+.contactwrap .con2 li a {
         font-size: 2.3rem;
         font-family: 'S-CoreDream-3Light';
         margin: 25px 0;
@@ -28,7 +29,8 @@
 
 @media screen and (max-width: 1500px) {
         .contactwrap .con li,
-        .contactwrap .con2 li {
+        .contactwrap .con2 li,
+        .contactwrap .con2 li a {
                 font-size: 1.7rem;
         }
 }
@@ -46,7 +48,8 @@
                 letter-spacing: -0.1rem;
                 text-align: center;
         }
-        .contactwrap .con2 li {
+        .contactwrap .con2 li,
+        .contactwrap .con2 li a {
                 font-size: 1.3rem;
                 text-align: center;
         }
