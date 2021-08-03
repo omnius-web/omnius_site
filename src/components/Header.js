@@ -14,7 +14,6 @@ function Header(){
         const [footName, setFootNAme] = useState('');
         useEffect(()=>{
                 window.scrollTo(0, 0);
-                ieChk();
                 if(lopath === '/' || lopath.pathname === '/'){
                         setHdNAme('main_header');
                         setFootNAme('main_footer');
