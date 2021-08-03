@@ -34,12 +34,12 @@
       function ieChk(){
         const url = "https://web.omnius.co.kr";
         const html = "";
-        html += '<div class=""><h4>현재 사용하시는 브라우저는 최신브라우저가 아닙니다.</h4><h4>이 브라우저는 보안에 취약한 브라우저이며 OMNIUS사이튼는 최신브라우저인 마이크로소프트 엣지 브라우저에서 접속하도록 도와드렸습니다.</h4></div>';
+        html += '이 브라우저는 보안에 취약한 브라우저이며 OMNIUS사이튼는 최신브라우저인 마이크로소프트 엣지 브라우저에서 접속하도록 도와드렸습니다.';
         var agent = navigator.userAgent.toLowerCase();
         if ( (navigator.appName === 'Netscape' && agent.indexOf('trident') !== -1) || (agent.indexOf("msie") !== -1)) {
                 // ie일 경우
                 console.log('ie');
-                document.getElementById('root').innerHTML = html;
+                alert(html);
                 window.location = 'microsoft-edge:' + url //url : 이동할 주소
         }else{
                 // ie가 아닐 경우
